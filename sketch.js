@@ -75,13 +75,7 @@ if (chance==0) {
  if (gameState==END) {
   background(gameImg); 
  }
- keyPressed();
-   
  
-function keyPressed() {
-  if(keyCode==82)
-  gameState=PLAY
-  chance=4 
-}
+
 
 }
